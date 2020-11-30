@@ -354,12 +354,14 @@ Shortcode Content
 .navbar-brand {
     padding-top    : 0;
     padding-bottom : 0;
-    height         : 40px;
+    height         : 54px;
     margin-bottom: 20px !important;
+    border: 2px solid #FFF;
+    background-color: #FFF;
     }
 
 .navbar-default .navbar-nav > li {
-    margin-right : 17px;
+    margin-right : 27px;
     }
 
 .navbar-default .navbar-nav > li:last-child {
@@ -370,7 +372,7 @@ Shortcode Content
     color          : #ffffff;
     font-size      : 13px;
     font-weight    : 700;
-    padding        : 8px 17px;
+    padding        : 8px 17px 8px 17px;
     border         : 2px solid transparent;
     border-radius  : 2px;
     text-transform : uppercase;
@@ -537,7 +539,7 @@ Shortcode Content
     }
 
 .m-menu .dropdown.m-menu-fw .dropdown-menu {
-    left  : 15px;
+    left  : 17px;
     right : 15px;
     }
 
@@ -1552,3 +1554,14 @@ service-icon-style
     top: 65%;
     }
 
+/* ---------------------------------------------- /*
+ * Adicionais
+/* ---------------------------------------------- */
+
+.item-contato {
+    padding-left: 15px;
+    }
+
+.item-contato-subitem {
+    padding-left: 26px;
+    }
